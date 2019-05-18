@@ -1,0 +1,228 @@
+img {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.3;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+#main {
+	width: 800px;
+	margin: 0 auto 40px;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline; 
+}
+
+#top-line {
+  width: 100%;
+  height: 5px;
+  background-color: #2d183d;
+  border-bottom: 3px solid #eedffb;
+  margin-bottom: 10px;
+}
+
+#bottom-line {
+  width: 100%;
+  height: 5px;
+  background-color: #2d183d;
+  border-top: 3px solid #eedffb;
+ }
+
+h1 {
+  font-size: 45px;
+  color: #2d183d;
+  text-align: center;
+  margin: 0px auto 5px;
+  border-bottom: 1px solid #f6f4f8;
+  border-top: 1px solid #f6f4f8;
+  padding: 10px 0;
+}
+
+h2 {
+  font-size: 28px;
+  text-align:center;
+  margin: 15px 0;
+  color: #663095;
+  padding: 15px 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+h4 {
+  color: #6D6A6A;
+  font-size: 19px;
+  padding: 27px 25px 15px;
+}
+
+small {
+  color: #6D6A6A;
+  font-size: 15px;
+  margin: 0 30px 10px;
+  text-align: right;
+  display: block;
+}
+
+#the-quote{
+	border-bottom: 5px solid #f6f4f8;   /*line beneath most birds quote */
+	border-top: 1px solid #f6f4f8;  /*faint line above most birds quote */
+	margin: 40px auto;
+	width: 80%;
+	padding:0px;
+}
+
+ol {
+	margin: 14px 14px 0 125px;
+  /*overall margin of the ordered list, 14px top and bottom and 0 right and left */
+  	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+ol li {                     /*for each list within the ordered list */
+	background-color: #F6F4F8;
+	color: #663095;
+	font-size: 16px;
+	text-align:center;
+	font-weight: 400;
+	margin: 10px 30px 10px 40px;
+	padding: 6px 20px;
+	border-radius: 9px;
+	width:70%;
+}
+
+/*This one is for the pictures, introduced as class pictures and id container as images*/
+
+#images {						/*overall size of the unordered list */
+	margin: 10px 80px 0px 250px;	
+	width:100%;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+ul {
+	list-style:none;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+.pictures {
+	float:left;
+	display:inline-block;		/*I have tried as block with no margin, just float and display:block, no space */
+	padding-right:10px;	/*Now i am adding margin and padding so I may have transiton later on.*/
+	margin: 0px auto;
+	vertical-align:middle;
+}
+/*cool stuff here, this -transform: rotate(30deg);*/	
+/*try these below: 	width:00px;
+	height:200px; - the images vibrate*/
+			
+.pictures:hover {
+	width:300px;
+	height:250px;
+}
+
+.pictures li:first-child { /*is my first-child pseudo element incorrect?*/
+	margin-left:5px;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+.clear {
+	clear:both;
+}
+
+#media {							/*the big box that houses the two videos*/
+	width:100%;
+	margin: 10px 80px 10px 420px;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+.video {					/*class for the individual video*/
+	margin: 2.5px;
+	width: 0px auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;	
+}	
+
+	
+#links {					
+	margin: 100px 15px 0 100px;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;  
+}
+
+#rhyme {
+	margin: 10px 80px 10px 420px;
+	width: 30%;
+	padding: 0;
+	border-bottom:2px solid #663095;
+	font-size: 100%;
+	vertical-align: baseline;	
+}
+
+/*for each individual link within the unordered list 
+for sharing thelove. the container is text-block */ 
+
+#text-block {
+	height:70px;
+	margin: 10px 80px 0px 420px;
+	width:  90%;
+	padding: 0;
+	border-bottom:0px;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+#text-block a{
+	font-size: 16px;
+}
+
+#links li {				
+  text-align:left;
+  margin:10px 45px 20px 10px;
+  font-size: 16px;
+  display: inline;					
+ }
+
+#links li a{				
+  width:75%;
+  margin:10px 25px 20px 10px;
+  font-size: 16px;
+}
+
+#links li a hover{				
+ text-transform: 50px;
+ }
+
+
+#minicon li {		/*id created with the list items to be displayed as block*/
+	display:inline-block;
+	margin: 5px 0px 5px 5px;
+}
+
+
+
